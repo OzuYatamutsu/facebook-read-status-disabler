@@ -26,9 +26,9 @@ function main() {
       && (arguments["0"].toLowerCase() == "post")
       && (typeof arguments["1"] === "string")
       && (
-        (arguments["1"].indexOf("change_read_status", 0) != -1)
-        || (arguments["1"].indexOf("delivery_receipts", 0) != -1)
-        || (arguments["1"].indexOf("typ", 0) != -1)
+        (arguments["1"].indexOf("/ajax/mercury/change_read_status.php", 0) != -1)
+        || (arguments["1"].indexOf("/ajax/mercury/delivery_receipts.php", 0) != -1)
+        || (arguments["1"].indexOf("/ajax/messaging/typ.php", 0) != -1)
         )
     ) {
       return null;
