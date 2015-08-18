@@ -1,12 +1,11 @@
-Facebook Read Status Disabler
-=============================
+# Facebook Sneekycate
 
-This script allows you not to send a "read-message" status to your friends, by blocking every request to `http(s)://www.facebook.com/ajax/mercury/change_read_status.php`.
+This userscript blocks all POSTS to `change_read_status.php`, `delivery_receipts.php`, and `typ.php`. As a result, other people on Facebook chat will not be able to see when you are typing or when you've opened a message.
 
-# Installation #
+This is a fork of Loïs Di Qual's original userscript [here](https://github.com/ldiqual/facebook-read-status-disabler), adding an additional typing block and blocking POSTS to the new `delivery_receipts.php`. All credit to him! :3
 
- * Firefox: setup [GreaseMonkey](https://addons.mozilla.org/fr/firefox/addon/greasemonkey/), and [go to this link](https://github.com/ldiqual/facebook-read-status-disabler/raw/master/facebook-read-status-disabler.user.js)
- * Chrome: [go to this link](https://github.com/ldiqual/facebook-read-status-disabler/raw/master/facebook-read-status-disabler.user.js)
+# Installation
 
-Supported browsers: Firefox & Chrome (Greasemonkey script).
-Please do not hesitate to make a pull request to support IE !
+This is a userscript, so it requires [GreaseMonkey](https://addons.mozilla.org/fr/firefox/addon/greasemonkey/) on Firefox or [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on Chrome. 
+
+Once you've installed one of those addons, install this script by going [here](https://github.com/OzuYatamutsu/facebook-read-status-disabler/raw/master/facebook-read-status-disabler.user.js).
